@@ -35,7 +35,7 @@ Seeing as a merge where right half (j) is smaller than left hald (i) there fore 
 > For example: collaborative filtering. Being able to recommend similar purchases to you. \
 > :bread: :doughnut: :watermelon:
 
-## Solution: 
+## :heavy_check_mark: Solution: 
 What is the largest number of inversions that a 6-element array can have?
 - nC2 = n(n-1)/2 = 15
 
@@ -68,28 +68,19 @@ def merge(left, right, count):
     return mergedArr, count
 ~~~
 
-### Attempted Implementation
+## :mag: Solution
+
 ~~~
 
-def countInversions( arr ):
-    count = 0
-    if(len(arr) == 1):
-        return count
+count(array A, length n):
+    # Base Case
+    if: n=1 return 0
     else:
-        merge(arr)
-
-def merge(arr1, arr2):
-    count = 0
-    mergedArr = []
-    for (i = 0; i < max(len(arr1),len(arr2)); i++):
-        if arr1[i] < i :
-            count += 1
-            mergedArr.push(j).push(i)
-        else:
-            mergedArr.push(i).push(j)
-                
-                
-        
+        x = count( array A[1st half], n/2)
+        y = count( array A[2nd half], n/2)
+        z = countSplitInv(A, n)
+    return x + y + z
+    
+    # If we implement this correctly we should be able to get linear (o(n)) time.
 
 ~~~
-
