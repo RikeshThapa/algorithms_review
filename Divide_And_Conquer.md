@@ -39,7 +39,7 @@ Seeing as a merge where right half (j) is smaller than left hald (i) there fore 
 What is the largest number of inversions that a 6-element array can have?
 - nC2 = n(n-1)/2 = 15
 
-## :clap: Clapping myself on the back here as I got this correct conceptyally
+## :clap: Clapping myself on the back here as I got this correct conceptually
 #### Implementation:
 
 Since I am rusty on the old scripting machine (I think :thinking:) \
