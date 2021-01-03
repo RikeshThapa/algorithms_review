@@ -1,9 +1,9 @@
 # algorithms_review
 My quick notes on strengthening my algorithmic capabilities. 
 
-Author: @misterrpink1 /RikeshThapa
-Date Created: Jan 2 2021
-Price of Bitcoin @date of writing:  $33,734.9 :grin: :rocket: :full_moon:
+ - Author: @misterrpink1 /RikeshThapa
+ - Date Created: Jan 2 2021
+ - Price of Bitcoin @date of writing:  $34,439.9 :grin: :rocket: :full_moon:
 
 Simply put one can't be a good developer without improving algorithmic logical thinking.
 Quite frankly I find smart algorithms delightful. I love the way my brain feels when I think
