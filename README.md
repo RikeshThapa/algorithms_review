@@ -5,12 +5,16 @@ My quick notes on strengthening my algorithmic capabilities.
  - Date Created: Jan 2 2021
  - Price of Bitcoin @date of writing:  $34,439.9 :grin: :rocket: :full_moon:
 
-Simply put one can't be a good developer without improving algorithmic logical thinking.
+Simply put one can't be a good developer without improving algorithmic logical thinking. \
 Quite frankly I find smart algorithms delightful. I love the way my brain feels when I think
 through a problem. 
 
-If you are someone that likes having their brains tickeled by the feather tip of algorithmic delight,
+If you are someone that likes having their brains tickled by the sheer algorithmic delight,
 feel free to follow, star, like and most importantly contribute.
+
+Follow me here: 
+:bird: twitter @misterrpink1
+:github: github /RikeshThapa
 
 
 
