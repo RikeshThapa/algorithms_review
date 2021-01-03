@@ -84,3 +84,13 @@ count(array A, length n):
     # If we implement this correctly we should be able to get linear (o(n)) time.
 
 ~~~
+
+> When you merge two of the sub arrays using merge sort Merge function, we are essentially calling it to count inversions every time we rearrange right and left vs left first then right. \
+> When you copy over an element from the right array to left array, we have an inversion
+
+### Analysis
+- Merge Step passes through all elements in the array once: so O(n)
+- InversionCount: Also does one pass through n elements: O(n)
+- O(n) + O(n) = O(n)
+- Sort and count recursion : O(nlog(n))
+- Same as Merge Sort
