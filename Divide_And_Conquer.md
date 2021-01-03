@@ -1,8 +1,8 @@
 
 
-Author: @misterrpink1 /rikehsthapa
-title: Divide And Conquer
-Sources: Coursera "Divide and Conquer, Sorting and Searching" Stanford Course
+Author: @misterrpink1 /rikehsthapa \
+title: Divide And Conquer \
+Sources: Coursera "Divide and Conquer, Sorting and Searching" Stanford Course \
 
 #### Contents
 ##### 1) counting number of inversions in an array
