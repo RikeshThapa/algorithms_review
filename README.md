@@ -12,9 +12,9 @@ through a problem.
 If you are someone that likes having their brains tickled by the sheer algorithmic delight,
 feel free to follow, star, like and most importantly contribute.
 
-Follow me here: 
-:bird: twitter @misterrpink1
-:github: github /RikeshThapa
+Follow me here: \
+:bird: twitter @misterrpink1 \
+:computer: github /RikeshThapa
 
 
 
