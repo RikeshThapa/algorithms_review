@@ -16,6 +16,15 @@ Follow me here: \
 :bird: twitter @misterrpink1 \
 :computer: github /RikeshThapa
 
+##Contents 
+> :white_check_mark: means the section has been written (not necessarily edited)
+
+### 1) :white_check_mark: Divide and Conquer - Counting the number of inversions in an array
+### 2) Strassen's recursive algorithm for matrix multiplication
+### 3) computing the closest pair of points in the plane
+### 4) The Master method
+
+
 
 
 
