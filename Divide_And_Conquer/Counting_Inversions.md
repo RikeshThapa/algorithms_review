@@ -1,14 +1,11 @@
 
-
 Author: @misterrpink1 /rikehsthapa \
-title: Divide And Conquer \
+title: Divide And Conquer~ Counting Inversions \
 Sources: Coursera "Divide and Conquer, Sorting and Searching" Stanford Course \
+
 
 #### Contents
 ##### 1) counting number of inversions in an array
-##### 2) Strassen's recursive algorithm for matrix multiplication
-##### 3) computing the closest pair of points in the plane
-##### 4) The Master method
 
 ### Overview
 
