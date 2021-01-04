@@ -3,14 +3,9 @@ Author: @misterrpink1 /rikehsthapa \
 title: Divide And Conquer~ Counting Inversions \
 Sources: Coursera "Divide and Conquer, Sorting and Searching" Stanford Course \
 
+### Counting the number of inversions in an array
 
-#### Contents
-##### 1) counting number of inversions in an array
-
-### Overview
-
-1) Counting the number of inversions in an array:
-
+### THE HIGH LEVEL
 - lets tackle using divide and conquer
 - STEP1: conceptually/ literally DIVIDE the problem into subproblems
 - STEP2: CONQUER usign recursive calls
