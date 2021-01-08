@@ -45,10 +45,40 @@ resulting in O(n^3)
 
 ## :heavy_check_mark: Solution: 
 - How do we improve on O(n^3) 
+- Idea:
+    > if:
+    - take a large nxn matrix
+    - nxn matrix A can be divided into 4 quadrants A,B,C,D 
+    - nxn matrix B can be divided into 4 quadrants E,F,G,H
+    > then:
+    - x*y = --                 --
+            | AE + BG , AF + BH |
+            | CE + DG , CF + DH |
+            --                 --
+    - this is the Atomic Property of matrix dot products
+    - note: if you were to look at KaratSuba's divide and conquer algo, you may notice some similarities in how the following is calculated:
+ - Solution 1:
+    - Recursive algorithms 1:
+         - step 1: involves 8 different products: AE, BG, AF, BH, CE, DG, CF, DH
+         - step 2: sum AE+BG, AF+BH, CE+DG, CF+DH
+         - O(n^3) time; although not obvious still cubic
+         
+    - Recursive Algorithm 2: Strassen's Subcubic Matrix:
+         - Similar to Karatsuba using Gausses's trick
+         - Somehow we are able to only do 7 calculations
+         - Step 1: recursively compute 7 products using cleer pics
+         - Step 2: Do the necessary additions
+         - reult: O(n^2)    
 
 
 #### Implementation:
-
+    To be clear, the concept is a little weird so lets work through the theroreticals and then figure out why Strassen's solution works
+    - p1 = A(F-H)
+    - p2 = (A+B)H
+    - p3 = (C+D)E
+    - p4 = A(G-E)
+    - p5 = (A+D)(E+H)
+    - 
 ## :mag: Solution
 
 ### Analysis
