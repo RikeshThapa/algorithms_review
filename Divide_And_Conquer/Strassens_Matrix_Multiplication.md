@@ -72,13 +72,22 @@ resulting in O(n^3)
 
 
 #### Implementation:
-    To be clear, the concept is a little weird so lets work through the theroreticals and then figure out why Strassen's solution works
+    To be clear, the concept is a little weird so lets work through the theroreticals and then figure out how Strassen's solution works
     - p1 = A(F-H)
     - p2 = (A+B)H
     - p3 = (C+D)E
     - p4 = A(G-E)
     - p5 = (A+D)(E+H)
-    - 
+    - p6 = (B-D)(G+H)
+    - p7 = (A-C)(E+F)
+                   --                --        --                                     --
+    Claim: x * y = | AE + BG  AF + BH |    =  | P5 + P4 - P2 + P6         P1 + P2      |
+                   | CE + DG  CF + DH |       |      P3 + P4         P1 + P5 - P3 - P7 |
+                   --                --        --                                     --
+                   
+    - well thats it. 
+    - The proof is to calculate the procicts and prove that they equate. This is trivial so I will not be doing it.
+    - Also anti climactic, there is no explanation of how Strassen cam up with this solution. Pure intuition I guess.
 ## :mag: Solution
 
 ### Analysis
